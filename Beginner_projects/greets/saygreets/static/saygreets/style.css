@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;  
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 1024px) {
+    body {
+        font-family: sans-serif; 
+        font-size: 3vw; 
+        border:4vw solid black;    
+    } 
+    
+   
+}
+
+
+@media (max-width: 1024px) and (min-width: 600px) {
+    body {
+        font-family: sans-serif; 
+        font-size: 4vw; 
+        border:3vw solid black;    }
+
+   
+}
+
+
+@media (max-width: 600px) {
+    body {
+        font-family: sans-serif; 
+        font-size: 6vw; 
+        border:2vw solid black;    }
+   
+    
+}
+
