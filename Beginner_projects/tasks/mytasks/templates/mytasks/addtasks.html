@@ -1,0 +1,17 @@
+{%extends "mytasks/layout.html"%} 
+
+{%block title%}
+Add Tasks
+{%endblock%}
+
+{%block style%}
+{%endblock%} 
+
+{%block body%}
+<h1>Add Tasks </h1> 
+<form action="{%url "mytasks:addtasks"%}" method="post">
+    {% csrf_token %}
+    {{form}}
+    <input type="submit">
+</form>
+{%endblock%}
